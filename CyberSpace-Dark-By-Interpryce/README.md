@@ -2,4 +2,4 @@
 
 Preview:
 
-![image](https://github.com/pryceofc/CyberPanel-Themes/blob/main/CyberSpace-By-Interpryce/Preview.png)
+![image](https://github.com/pryceofc/CyberPanel-Themes/blob/main/CyberSpace-Dark-By-Interpryce/Preview.png)
