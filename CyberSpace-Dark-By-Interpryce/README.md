@@ -1,5 +1,10 @@
-# CyberSpace Theme | By InterPryce
+# CyberSpace Dark Theme | By InterPryce
 
-Preview:
+Dashboard Preview:
 
 ![image](https://github.com/pryceofc/CyberPanel-Themes/blob/main/CyberSpace-Dark-By-Interpryce/Preview.png)
+
+Login Preview:
+
+![image](https://github.com/pryceofc/CyberPanel-Themes/blob/main/CyberSpace-Dark-By-Interpryce/LoginPreview.png)
+
