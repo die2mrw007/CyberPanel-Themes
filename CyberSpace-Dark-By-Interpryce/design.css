@@ -1,5 +1,10 @@
 body {
-    background: url(https://storage.googleapis.com/interpryce/public/cyberpanel/bg2-cyberpanel-itp.png) fixed no-repeat;
+    background-image: url(https://storage.googleapis.com/interpryce/public/cyberpanel/bg2-cyberpanel-itp.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
     transition: background .2s;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -229,7 +234,7 @@ a:hover {
 }
 
 .panel-body {
-    padding: 0;
+    padding: 1rem;
     position: relative;
 }
 
@@ -695,6 +700,26 @@ div[style='margin-top: 4%'] {
 
 .panel.col-md-11 {
     width: 100%;
+}
+
+.col-login-right {
+    background: #00000024;
+}
+
+.col-login-left {
+    background: linear-gradient(0deg, rgb(0 95 95 / 41%) 0%, rgb(1 1 24 / 80%) 100%);
+}
+
+.login-changelogs .card {
+    background-color: #0000008f;
+}
+
+button.btn.btn-login {
+    background-color: rgb(0 133 139 / 70%) !important;
+}
+
+button.btn.btn-login:hover {
+    background-color: rgb(0 79 79) !important;
 }
 
 ::-webkit-scrollbar {
