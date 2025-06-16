@@ -1,0 +1,158 @@
+/*
+    Name: Interactive by Die2mrw007
+    Version: 2.0
+    Author: Nitesh Kunnath
+    Modern UI Update
+
+    Tested on CyberPanel 2.4 build 1
+    Served with APACHE-2.0 license
+
+    - CyberPanel repo: https://github.com/die2mrw007/cyberpanel/
+*/
+
+:root {
+    --theme-color-0: #4f46e5;
+    --theme-color-1: #4338ca;
+    --theme-color-2: #3730a3;
+    --theme-color-3: #312e81;
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+    --transition: all 0.2s ease-in-out;
+}
+
+textarea {
+    font-family: monospace;
+}
+#sidebar-menu-item-server-ip-address span {
+    color: white !important;
+    font-weight: 400 !important;
+}
+#sidebar-menu-item-server-ip-address span:before {
+    content: "Logged at ";
+}
+h1, h2, h3, h4, h5, h6,
+#page-title > h2,
+#page-title > p {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 1.4;
+}
+.btn:not(.toggle) {
+    border-width: 0px;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-weight: 500;
+    transition: var(--transition);
+    box-shadow: var(--shadow-sm);
+}
+.btn-primary {
+    border-width: 0px;
+    background-color: var(--theme-color-1);
+    box-shadow: var(--shadow-sm);
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active:focus {
+    background: var(--theme-color-2);
+    background-color: var(--theme-color-2);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+}
+.btn-primary:active {
+    background-color: var(--theme-color-3);
+}
+#header-nav-right .header-btn {
+    border-color: rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    transition: var(--transition);
+}
+#header-nav-right .header-btn:hover {
+    border-color: var(--theme-color-1);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-sm);
+}
+#header-nav-right .header-btn i {
+    color: #222 !important;
+}
+#page-header {
+    background: white;
+    box-shadow: var(--shadow-sm);
+    padding: 1rem 0;
+}
+.sidebar-submenu {
+    margin: 0px !important;
+    border-radius: 0 0 6px 6px;
+    overflow: hidden;
+}
+.sidebar-submenu li {
+    background-color: var(--theme-color-2);
+    list-style: none;
+    transition: var(--transition);
+}
+#page-sidebar li ul li a:before {
+    display: none !important;
+}
+#sidebar-menu li .sidebar-submenu ul li a:hover,
+#sidebar-menu li .sidebar-submenu ul li a.sfActive {
+    background-color: var(--theme-color-3);
+    padding-left: 20px;
+}
+#sidebar-menu li .sidebar-submenu ul li, #sidebar-menu li .sidebar-submenu {
+    border-width: 0px;
+}
+#sidebar-menu, #header-logo {
+    background: var(--theme-color-1);
+    padding: 0;
+    box-shadow: var(--shadow-md);
+}
+#sidebar-menu > li > a, #page-sidebar li ul li a {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-width: 0;
+    color: white !important;
+    padding: 12px 20px;
+    font-size: 14px;
+    transition: var(--transition);
+}
+#page-sidebar ul li.header {
+    color: white !important;
+    padding: 24px 20px;
+    margin: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+#page-sidebar ul li.divider {
+    display: none;
+}
+#sidebar-menu > li > a:hover {
+    background-color: var(--theme-color-2);
+}
+#page-sidebar ul li a .glyph-icon {
+    display: none;
+}
+
+/* Modern Form Elements */
+textarea, input[type="text"], input[type="password"], input[type="email"], select {
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 8px 12px;
+    transition: var(--transition);
+}
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, select:focus {
+    border-color: var(--theme-color-1);
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+    outline: none;
+}
+
+/* Card-like Elements */
+.panel {
+    border-radius: 8px;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    transition: var(--transition);
+}
+
+.panel:hover {
+    box-shadow: var(--shadow-md);
+}
